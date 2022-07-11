@@ -1,18 +1,19 @@
 <script setup lang="ts">
-
-    import {ref} from 'vue'
-
     const keyboardKeys = [
         'qwertyuiop',
         'asdfghjkl',
         'zxcvbnm'
     ]
+
+    const emit = defineEmits<{
+        (eventName: 'keyClick', key:string): void
+    }>()
 </script>
 
 <template>
     <div class = "keyboard">
         <div class="keyboard-row" v-for="row, i in keyboardKeys" :key="i">
-            <div class="keyboard-key" v-for="ch in row" :key="ch">
+            <div class="keyboard-key" v-for="ch in row" :key="ch" @click="emit('keyClick',ch)">
                 {{ch.toUpperCase()}}
             </div>
         </div>
