@@ -2,6 +2,8 @@ import { expect } from 'chai'
 import { getWordsByLength } from '@/dict'
 
 describe('@dict', () => {
+  //단어 길이가 제대로 맞는지
+  
   it('properly fetches dictionary words', () => {
     const words5 = getWordsByLength(5)
     expect(words5.every(x => x.length === 5)).to.eq(true)
