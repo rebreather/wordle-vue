@@ -90,6 +90,19 @@ const alphabetMatchResultMap = computed(() => {
                     background: #aaa;
                     cursor:pointer;
                 }
+
+                &.wordle-match-green {
+                    background: #6eec45;
+                }
+
+                &.wordle-match-yellow {
+                    background: #ffee9b;
+                }
+
+                &.wordle-match-gray {
+                    background: #444;
+                    color: #fff;
+                }
             }
         }
     }
