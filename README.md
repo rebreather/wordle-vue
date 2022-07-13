@@ -28,7 +28,7 @@
 ### 🔎 플레이 사진
 ***
 
-<img width="216" height="465" src="https://github.com/rebreather/wordle-vue/blob/main/wordle-vue/asset/KakaoTalk_20220713_171116771.png" alt="Main page">             <img width="216" height="465" src="https://github.com/rebreather/wordle-vue/blob/main/wordle-vue/asset/KakaoTalk_20220713_171116771_01.png" alt="Playing page">            <img width="216" height="465" src="https://github.com/rebreather/wordle-vue/blob/main/wordle-vue/asset/KakaoTalk_20220713_171116771_02.png" alt="Done page">
+<img width="216" height="465" src="https://github.com/rebreather/wordle-vue/blob/main/wordle-vue/asset/KakaoTalk_20220713_171116771.png" alt="Main page">                     <img width="216" height="465" src="https://github.com/rebreather/wordle-vue/blob/main/wordle-vue/asset/KakaoTalk_20220713_212618326_01.png" alt="Done page">
 
 <br>
 
