@@ -34,7 +34,7 @@ function onkeyClick (ch:string) {
       }
       else { //6번의 기회가 다 찼을 때
         if(queries.value.length === tryCount) {
-          alert('실패ㅜㅜ')
+          alert('실패ㅜㅜ.. 정답은 ' + answer.value + '입니다.')
         }
       }
       lastQuery.value.length = 0
@@ -55,7 +55,7 @@ function keypressToClick(ev: KeyboardEvent) {
   if(/^[a-z]$/.test(key)) {
     onkeyClick(key)
   }
-  else if(key === 'Backspace') { //BackSpace와 Backspace 와 구분이 되나??
+  else if(key === 'Backspace') { //BackSpace와 Backspace 와 구분이 됨. 주의할 것
     onkeyClick('backspace')
   }
   else if(key === 'Enter') {
